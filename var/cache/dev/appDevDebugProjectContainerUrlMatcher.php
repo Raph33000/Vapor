@@ -114,6 +114,20 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'AccueilBundle\\Controller\\DefaultController::indexAction',  '_route' => 'accueil_homepage',);
         }
 
+        // user_homepage
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'user_homepage');
+            }
+
+            return array('_route' => 'user_homepage');
+        }
+
+        // vapor_new_user
+        if ($pathinfo === '/new-user') {
+            return array (  '_controller' => 'UserBundle\\Controller\\DefaultController::indexAction',  '_route' => 'vapor_new_user',);
+        }
+
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
     }
 }

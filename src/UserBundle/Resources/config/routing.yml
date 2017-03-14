@@ -1,0 +1,6 @@
+user_homepage:
+    path:     /
+
+vapor_new_user:
+    path: /new-user
+    defaults: { _controller: UserBundle:Default:index }

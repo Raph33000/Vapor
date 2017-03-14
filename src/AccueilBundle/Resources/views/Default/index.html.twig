@@ -1,1 +1,5 @@
-Hello World!
+{% extends "::base.html.twig" %}
+{% block body %}
+	Hello World!
+	<a href="{{path('vapor_new_user')}}" class="btn btn-primary">Create a new user</a>
+{% endblock %}

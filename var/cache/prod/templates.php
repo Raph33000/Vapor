@@ -81,6 +81,7 @@
   'DoctrineBundle:Collector:db.html.twig' => __DIR__.'/../../../vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig',
   'AppBundle:default:index.html.twig' => __DIR__.'/../../../src/AppBundle/Resources/views/default/index.html.twig',
   'AccueilBundle:Default:index.html.twig' => __DIR__.'/../../../src/AccueilBundle/Resources/views/Default/index.html.twig',
+  'UserBundle:Default:index.html.twig' => __DIR__.'/../../../src/UserBundle/Resources/views/Default/index.html.twig',
   ':default:index.html.twig' => __DIR__.'/../../../app/Resources/views/default/index.html.twig',
   '::base.html.twig' => __DIR__.'/../../../app/Resources/views/base.html.twig',
 );

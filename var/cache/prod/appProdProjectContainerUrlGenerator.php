@@ -24,6 +24,8 @@ class appProdProjectContainerUrlGenerator extends Symfony\Component\Routing\Gene
         if (null === self::$declaredRoutes) {
             self::$declaredRoutes = array(
         'accueil_homepage' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'AccueilBundle\\Controller\\DefaultController::indexAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
+        'user_homepage' => array (  0 =>   array (  ),  1 =>   array (  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
+        'vapor_new_user' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'UserBundle\\Controller\\DefaultController::indexAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/new-user',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
     );
         }
     }

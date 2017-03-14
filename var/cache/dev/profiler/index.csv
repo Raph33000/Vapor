@@ -1,1 +1,6 @@
-2566c5,127.0.0.1,GET,http://www.vapor.dev/app_dev.php/,1489403290,,200
+b36e99,127.0.0.1,GET,http://www.vapor.dev/app_dev.php/new-user,1489481152,e44c2c,200
+e44c2c,127.0.0.1,GET,http://www.vapor.dev/app_dev.php/new-user,1489481152,,500
+31de86,127.0.0.1,GET,http://www.vapor.dev/app_dev.php/new-user,1489481203,b0bbb8,200
+b0bbb8,127.0.0.1,GET,http://www.vapor.dev/app_dev.php/new-user,1489481203,,500
+025f57,127.0.0.1,GET,http://www.vapor.dev/app_dev.php/new-user,1489481213,,200
+497de0,127.0.0.1,GET,http://www.vapor.dev/app_dev.php/new-user,1489481637,,200
